@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\kodkod\c#\תרגילים\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\ExpenseManagement\ExpenseManagement\bin\Debug\ExpenseManagement.exe.config
+C:\Users\user\Desktop\kodkod\c#\תרגילים\ExpenseManagement\ExpenseManagement\bin\Debug\ExpenseManagement.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\ExpenseManagement\ExpenseManagement\bin\Debug\ExpenseManagement.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.pdb

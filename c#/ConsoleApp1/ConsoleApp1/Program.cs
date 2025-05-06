@@ -100,7 +100,7 @@ internal class Program
     "[9123]:[URGENT]:[20250505]|[          Security breach in Zone 3]"
           };
 
-
+//   יוצר מערך של מכתבים
     LetterManager letterManager = new LetterManager(letters);
   //    מדפיס הכל
     letterManager.PrintLetters();
