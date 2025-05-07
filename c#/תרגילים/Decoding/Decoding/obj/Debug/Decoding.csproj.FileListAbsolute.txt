@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\kodkod\c#\תרגילים\Decoding\Decoding\bin\Debug\Decoding.exe.config
+C:\Users\user\Desktop\kodkod\c#\תרגילים\Decoding\Decoding\bin\Debug\Decoding.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\Decoding\Decoding\bin\Debug\Decoding.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\Decoding\Decoding\obj\Debug\Decoding.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\Decoding\Decoding\obj\Debug\Decoding.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\Decoding\Decoding\obj\Debug\Decoding.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\Decoding\Decoding\obj\Debug\Decoding.pdb
