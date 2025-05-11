@@ -1,81 +1,65 @@
-﻿
-//1
+﻿//1
 
-List <string> names = new List<string> { "shmuel", "avi", "devid", "moshe","ari"};
-names.Add("yethchak");
-names.Add("yakov");
 
-names.Remove("yethchak");
-names.RemoveAt(0);
+bool IsValidAge(int age)
 
-foreach (string name in names)
 {
-    Console.WriteLine($"{names.IndexOf(name)} . {name}");
+    
+    return age > 17 && age < 66;
+}
 
+bool IsValidAge1(int age)
+{
+    return age > -1 && age <121 ;
 }
 
 //2
-Dictionary<string ,int> dict = new Dictionary<string, int>
-{
-    {"woter",3 },
-    {"milk",6 },
-    {"brade",5 }
-};
 
-dict["milk"] += 1;
-
-foreach (var name in dict)
+string FormatName(string firstName, string lastName)
 {
-    Console.WriteLine($"{name.Key} : {name.Value}");
+    if (firstName == "" || lastName == "")
+    {
+        return "Invalid input";
+    }
+    return firstName + "," + lastName;
 }
 
 //3
 
-List<Dictionary<string, string>> exe3 = new List<Dictionary<string, string>>();
-
-Dictionary<string,string> p1 = new Dictionary<string, string>
+bool IsStrongPassword(string password)
 {
-    {"name" , "shmuel" },
-    {"email" , "gdsg@gmail.com" },
-    {"status" , "singel" }
-};
+    bool len = password.Length > 7;
+    bool big = false;
+    bool digit = false;
+    foreach (char c in password)
+    {
+        if (char.IsDigit(c))
+        {
+            digit = true;
+        }
 
-Dictionary<string, string> p2 = new Dictionary<string, string>
-{
-    {"name" , "moshe" },
-    {"email" , "eee@gmail.com" },
-    {"status" , "singel" }
-};
+        if (char.IsUpper(c))
+        {
+            big = true;
+        }
+    }
 
-exe3.Add(p1);
-exe3.Add(p2);
-
-foreach (var person in exe3)
-{
-    Console.WriteLine($"{person["name"]} : {person["email"]} :{person["status"]} ");
+    return big && len && digit;
 }
 
 //4
 
-List<string> namesList = new List<string>
+int SumIfEven(int[] numbers)
 {
-    "shmuel","moshe","david"
-};
+    int sum = 0;
+    foreach (int number in numbers)
+    {
 
-Console.WriteLine("enter name");
-string name1 = Console.ReadLine();
-
-int ind = namesList.IndexOf(name1);
-Console.WriteLine(ind > -1 ? $"index : {ind}" : "Username not registered");
+        if (number % 2 == 0) { sum += number; }
+    }
+    return sum;
+}
 
 //5
 
-Dictionary<string , List<string>> soldiers = new Dictionary<string , List<string>>();
 
-soldiers["shmuel"] = new List<string> { "recorder" ,"map" , "notebook" };
-soldiers["david"] = new List<string> { "recorder" ,"map" , "notebook" };
-soldiers["moshe"] = new List<string> { "recorder" ,"map" , "notebook" };
-
-foreach (var soldier in soldiers)
-{
-    Console.WriteLine(soldier.Value.Count >2 ? $"{soldier.Key} is ready for intel work"  : $"{soldier.Key} is missing tools ");}
