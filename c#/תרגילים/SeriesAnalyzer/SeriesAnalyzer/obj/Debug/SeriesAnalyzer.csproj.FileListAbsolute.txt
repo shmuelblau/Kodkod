@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\kodkod\c#\תרגילים\SeriesAnalyzer\SeriesAnalyzer\obj\Debug\SeriesAnalyzer.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\SeriesAnalyzer\SeriesAnalyzer\obj\Debug\SeriesAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\SeriesAnalyzer\SeriesAnalyzer\bin\Debug\SeriesAnalyzer.exe.config
+C:\Users\user\Desktop\kodkod\c#\תרגילים\SeriesAnalyzer\SeriesAnalyzer\bin\Debug\SeriesAnalyzer.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\SeriesAnalyzer\SeriesAnalyzer\bin\Debug\SeriesAnalyzer.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\SeriesAnalyzer\SeriesAnalyzer\obj\Debug\SeriesAnalyzer.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\SeriesAnalyzer\SeriesAnalyzer\obj\Debug\SeriesAnalyzer.pdb
