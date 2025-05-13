@@ -88,9 +88,9 @@ namespace SeriesAnalyzer
         public void ShowRevers()
         {
 
-            for (int i = series.Length - 1; i >= 0; i++)
+            for (int i = series.Length - 1; i >= 0; i--)
             {
-                Console.WriteLine(series[i]);
+                Console.Write(series[i]);
             }
         }
 
@@ -100,7 +100,7 @@ namespace SeriesAnalyzer
 
             for (int i = 0; i < newSeries.Length; i++)
             {
-                for (int j = 0; j < newSeries.Length; j++)
+                for (int j = i; j < newSeries.Length; j++)
                 {
                     if (newSeries[i] > newSeries[j])
                     {
@@ -111,7 +111,7 @@ namespace SeriesAnalyzer
                 }
             }
 
-            foreach (int num in newSeries) { Console.Write(num); }
+            foreach (int num in newSeries) { Console.Write(num + " "); }
         }
 
         public void Max()
@@ -158,6 +158,7 @@ namespace SeriesAnalyzer
 
         static void PrintMenu()
         {
+
             Console.WriteLine("------menu------\nEnter number 1 to enter a series\n" +
                                 " number 2 to display the series\n" +
                                 " number 3 to display the inverted series\n" +
