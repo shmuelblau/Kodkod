@@ -156,18 +156,91 @@ namespace SeriesAnalyzer
     internal class Program
     {
 
+        static void PrintMenu()
+        {
+            Console.WriteLine("------menu------\nEnter number 1 to enter a series\n" +
+                                " number 2 to display the series\n" +
+                                " number 3 to display the inverted series\n" +
+                                " number 4 to display the sorted series\n" +
+                                " number 5 to display the maximum value\n" +
+                                " number 6 to display the minimum value\n" +
+                                " number 7 to display the average\n" +
+                                " number 8 to display the length of the series\n" +
+                                " number 9 to display the sum of the entire series\n" +
+                                " number 10 exit");
+        }
+
         static void Main(string[] args)
         {
+
             Series series = new Series();
+
             if (!series.SetSeries(args))
             {
                 series.GetNew();
             }
 
+            string chois;
+
             do
             {
-
+                PrintMenu();
+                chois = Console.ReadLine();
+                switch (chois) 
+                {
+                    case "1":
+                        {
+                            series.GetNew();
+                            break;
+                        }
+                    case "2":
+                        {
+                            series.Show();
+                            break;
+                        }
+                    case "3":
+                        {
+                            series.ShowRevers();
+                            break;
+                        }
+                    case "4":
+                        {
+                            series.sort();
+                            break;
+                        }
+                    case "5":
+                        {
+                            series.Max();
+                            break;
+                        }
+                    case "6":
+                        {
+                            series.min();
+                            break;
+                        }
+                    case "7":
+                        {
+                            series.Avarage();
+                            break;
+                        }
+                    case "8":
+                        {
+                            series.len();
+                            break;
+                        }
+                    case "9":
+                        {
+                            series.Som();
+                            break;
+                        }
+                    case "10":
+                        {
+                            break;
+                        }
+                }
             }
+            while (chois != "10");
+            Console.WriteLine("goodbye");
         }
     }
 }
