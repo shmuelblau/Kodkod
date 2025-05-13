@@ -232,7 +232,7 @@ namespace SeriesAnalyzer
                     case "9":
                         {
                             series.Som();
-                            break;
+                            break ;
                         }
                     case "10":
                         {
@@ -244,4 +244,5 @@ namespace SeriesAnalyzer
             Console.WriteLine("goodbye");
         }
     }
+
 }
