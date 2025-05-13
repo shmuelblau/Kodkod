@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\kodkod\c#\תרגילים\newAnalyzr\newAnalyzr\bin\Debug\newAnalyzr.exe.config
+C:\Users\user\Desktop\kodkod\c#\תרגילים\newAnalyzr\newAnalyzr\bin\Debug\newAnalyzr.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\newAnalyzr\newAnalyzr\bin\Debug\newAnalyzr.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\newAnalyzr\newAnalyzr\obj\Debug\newAnalyzr.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\newAnalyzr\newAnalyzr\obj\Debug\newAnalyzr.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\newAnalyzr\newAnalyzr\obj\Debug\newAnalyzr.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\newAnalyzr\newAnalyzr\obj\Debug\newAnalyzr.pdb
