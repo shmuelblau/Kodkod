@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP1\OOP1\bin\Debug\OOP1.exe.config
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP1\OOP1\bin\Debug\OOP1.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP1\OOP1\bin\Debug\OOP1.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP1\OOP1\obj\Debug\OOP1.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP1\OOP1\obj\Debug\OOP1.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP1\OOP1\obj\Debug\OOP1.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP1\OOP1\obj\Debug\OOP1.pdb

@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\kodkod\c#\תרגילים\CaesarProject\CaesarProject\bin\Debug\CaesarProject.exe.config
+C:\Users\user\Desktop\kodkod\c#\תרגילים\CaesarProject\CaesarProject\bin\Debug\CaesarProject.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\CaesarProject\CaesarProject\bin\Debug\CaesarProject.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\CaesarProject\CaesarProject\obj\Debug\CaesarProject.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\CaesarProject\CaesarProject\obj\Debug\CaesarProject.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\CaesarProject\CaesarProject\obj\Debug\CaesarProject.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\CaesarProject\CaesarProject\obj\Debug\CaesarProject.pdb
