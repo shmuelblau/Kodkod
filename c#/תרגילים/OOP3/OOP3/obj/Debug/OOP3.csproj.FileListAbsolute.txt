@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP3\OOP3\bin\Debug\OOP3.exe.config
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP3\OOP3\bin\Debug\OOP3.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP3\OOP3\bin\Debug\OOP3.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP3\OOP3\obj\Debug\OOP3.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP3\OOP3\obj\Debug\OOP3.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP3\OOP3\obj\Debug\OOP3.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\OOP3\OOP3\obj\Debug\OOP3.pdb
