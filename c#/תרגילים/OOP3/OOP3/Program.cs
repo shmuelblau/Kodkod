@@ -23,7 +23,7 @@ namespace OOP3
             Report[] reports = new Report[]
             {
                 new Report("Floods" ,1 ,5 , "dsgrg"),
-                new Report("Floods" ,1 ,5 , "dsgrg"),
+                new Report("Floods" ,2 ,5 , "dsgrg"),
                 new Report("Injuries" ,1 ,5 , "dsgrg"),
                 new Report("Injuries" ,2 ,5 , "dsgrg"),
                 new Report("Blockages" ,1 ,5 , "dsgrg"),

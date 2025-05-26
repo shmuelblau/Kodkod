@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\bin\Debug\net8.0\start_IO.exe
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\bin\Debug\net8.0\start_IO.deps.json
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\bin\Debug\net8.0\start_IO.runtimeconfig.json
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\bin\Debug\net8.0\start_IO.dll
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\bin\Debug\net8.0\start_IO.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\start_IO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\start_IO.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\start_IO.AssemblyInfo.cs
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\start_IO.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\start_IO.sourcelink.json
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\start_IO.dll
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\refint\start_IO.dll
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\start_IO.pdb
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\start_IO.genruntimeconfig.cache
+C:\Users\user\Desktop\kodkod\c#\תרגילים\start_IO\start_IO\obj\Debug\net8.0\ref\start_IO.dll
