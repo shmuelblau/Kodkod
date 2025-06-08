@@ -15,6 +15,7 @@ foreach (char c in secret)
     if (char.IsLetter(c))
     {
         encoding += (char)(219 - (int)char.ToLower(c));
+        
     }
     else
     {
