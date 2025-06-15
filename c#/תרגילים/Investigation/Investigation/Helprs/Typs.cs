@@ -10,8 +10,8 @@ namespace Investigation.Classes
     {
         public static Dictionary<string , Type> sensors = new Dictionary<string , Type>
         {
-            { "Sensor",typeof(AudioSensor)},
-            { "Sensor",typeof(PulseSensor)}
+            { "AudioSensor",typeof(AudioSensor)},
+            { "PulseSensor",typeof(PulseSensor)}
             
         };
     }

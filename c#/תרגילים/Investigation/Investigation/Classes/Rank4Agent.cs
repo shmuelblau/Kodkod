@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Investigation.Classes
 {
-    internal interface AudioSensor
+    internal class Rank4Agent
     {
     }
 }

@@ -10,7 +10,7 @@ namespace Investigation.Classes
     {
         public List<ISensor> Sensors { get; set; } = new List<ISensor>();
 
-        public List<string> Weaknesses { get; set; }
+        protected List<string> Weaknesses { get; set; }
 
         public  Agent(int num) 
         {
