@@ -14,7 +14,7 @@ namespace Investigation
 
         List<string> Weaknesses { get; set; }
 
-        int counter { get; set; }
+       
 
         void Operate();
 

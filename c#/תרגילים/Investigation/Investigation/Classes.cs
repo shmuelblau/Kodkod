@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Investigation
 {
-    internal interface IBaseCounterattack
+    internal class Classes
     {
-        int counter { get; set; }
-        void BaseCounterattack();
     }
 }

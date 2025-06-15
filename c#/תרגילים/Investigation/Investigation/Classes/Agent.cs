@@ -13,7 +13,7 @@ namespace Investigation
 
         public List<string> Weaknesses { get; set; }
 
-        public int counter {  get; set; }
+       
 
         public  Agent(string name , int num ) 
         {
