@@ -4,21 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Investigation.Classes
+namespace Investigation
 {
-    public class Agent 
+    public  class Agent : IAgent 
     {
+        public string Name { get; set; }
         public List<ISensor> Sensors { get; set; } = new List<ISensor>();
 
-        protected List<string> Weaknesses { get; set; }
+        public List<string> Weaknesses { get; set; }
 
-        public  Agent(int num) 
+        public int counter {  get; set; }
+
+        public  Agent(string name , int num ) 
         {
+            Name = name;
             CreateWeaknesses(num);
         }
 
+        public virtual void Operate()
+        {
+            Check();
+        }
 
-        private void CreateWeaknesses (int num)
+
+        public void CreateWeaknesses (int num )
         {
             for (int i = 0; i < num; i++)
             {
@@ -33,15 +42,21 @@ namespace Investigation.Classes
 
         public string Check()
         {
-            bool check = false;
 
-            if (check)
+            List<string> sensorsactiv = Sensors.Select(s => s.Activate()).ToList();
+
+            List<string> sensorsneaded = Weaknesses.Select(w => w ).ToList();
+
+            sensorsactiv.ForEach(s => sensorsneaded.Remove(s));
+
+            if (sensorsneaded.Count > 0)
             {
-                return "לא תפסת";
+                return $"find {Weaknesses.Count - sensorsneaded.Count}/ {Weaknesses.Count}";
             }
+
             else
             {
-                return "אוקיי נתפסתי";
+                return "caught me!";
             }
         }
 

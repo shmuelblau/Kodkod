@@ -1,4 +1,4 @@
-﻿using Investigation.Classes;
+﻿using Investigation;
 using System;
 using System.Collections.Generic;
 using System.Linq;

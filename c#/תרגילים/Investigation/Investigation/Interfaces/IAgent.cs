@@ -4,9 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Investigation.Interfaces
+namespace Investigation
 {
     internal interface IAgent
     {
+
+        string Name { get; set; }
+        List<ISensor> Sensors { get; set; }
+
+        List<string> Weaknesses { get; set; }
+
+        int counter { get; set; }
+
+        void Operate();
+
+        void CreateWeaknesses(int num);
+
+
+        void AddSensor(string name, int loc);
+
+
+        string Check();
     }
 }
