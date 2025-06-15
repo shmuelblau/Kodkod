@@ -8,8 +8,17 @@ namespace Investigation.Classes
 {
     public class Rank4Agent:Agent , IBaseCounterattack
     {
+        public int counter { get; set; }
         public Rank4Agent(string name):base(name , 3) { }
 
+
+        public override void Operate()
+        {
+            counter += 1;
+            BaseCounterattack();
+            Check();
+
+        }
         public void BaseCounterattack()
         {
             Random random = new Random();

@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Investigation
+namespace Investigation.Interfaces
 {
-    internal interface IBaseCounterattack
+    internal interface IcommanderCounterattack
     {
-        int counter { get; set; }
-        void BaseCounterattack();
+        void CommanderCounterattack();
     }
 }
