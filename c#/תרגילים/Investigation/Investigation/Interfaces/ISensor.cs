@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Investigation.Classes
+namespace Investigation
 {
     public interface ISensor
     {
