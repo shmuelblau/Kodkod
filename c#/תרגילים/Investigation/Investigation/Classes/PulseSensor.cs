@@ -23,16 +23,17 @@ namespace Investigation
 
         public string Activate()
         {
-            if (count > 3)
+
+            count += 1;
+
+            if ( count % 3 == 0)
             {
                 Pulse();
             }
 
-
-            count += 1;
-
             return name;
         }
+
         public void Pulse()
         {
             for(int i = 0; i < agent.Sensors.Count; i++)

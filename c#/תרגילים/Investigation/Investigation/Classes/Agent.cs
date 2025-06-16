@@ -20,7 +20,7 @@ namespace Investigation
             Name = name;
             CreateWeaknesses(num);
         }
-
+        
         public virtual void Operate()
         {
             Check();
