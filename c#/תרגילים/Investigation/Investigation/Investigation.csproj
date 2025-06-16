@@ -109,13 +109,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\Agent.cs" />
-    <Compile Include="Classes\AgentDTO.cs" />
-    <Compile Include="Classes\AudioSensor.cs" />
-    <Compile Include="Classes\Rank2Agent.cs" />
-    <Compile Include="Classes\Rank4Agent.cs" />
-    <Compile Include="Classes\Rank6Agent.cs" />
-    <Compile Include="Classes\Rank8Agent.cs" />
+    <Compile Include="Classes\Agents\Agent.cs" />
+    <Compile Include="Classes\Agents\Rank2Agent.cs" />
+    <Compile Include="Classes\Agents\Rank4Agent.cs" />
+    <Compile Include="Classes\Agents\Rank6Agent.cs" />
+    <Compile Include="Classes\Agents\Rank8Agent.cs" />
+    <Compile Include="Classes\DTO\AgentDTO.cs" />
+    <Compile Include="Classes\DTO\PlayerDTO.cs" />
+    <Compile Include="Classes\Sensors\AudioSensor.cs" />
+    <Compile Include="Classes\Sensors\LightSensor.cs" />
+    <Compile Include="Classes\Sensors\MagneticSensor.cs" />
+    <Compile Include="Classes\Sensors\PulseSensor.cs" />
+    <Compile Include="Classes\Sensors\Sensor.cs" />
+    <Compile Include="Classes\Sensors\SignalSensor.cs" />
+    <Compile Include="Classes\Sensors\ThermalSensor.cs" />
     <Compile Include="Helprs\DbManager.cs" />
     <Compile Include="Helprs\Factory.cs" />
     <Compile Include="Helprs\Menu.cs" />
@@ -125,15 +132,25 @@
     <Compile Include="Interfaces\IcommanderCounterattack.cs" />
     <Compile Include="Interfaces\ISensor.cs" />
     <Compile Include="Helprs\Typs.cs" />
-    <Compile Include="Classes\PulseSensor.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Investigation.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\Investigation.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Release\Investigation.csproj.AssemblyReference.cache" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="obj\Debug\Investigation.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
