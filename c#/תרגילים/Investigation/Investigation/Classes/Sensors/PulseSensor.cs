@@ -1,4 +1,5 @@
 ﻿using Investigation;
+using Investigation.Classes.Sensors;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,21 +8,16 @@ using System.Threading.Tasks;
 
 namespace Investigation
 {
-    public class PulseSensor: ISensor
+    public class PulseSensor: Sensor
     {
 
-        public Agent agent { get; set; }
-
-        public string name { get; set; } = "AudioSensor";
+        
 
         public int count { get; set; }
 
-        public PulseSensor(Agent agent)
-        {
-            this.agent = agent;
-        }
+        public PulseSensor(Agent agent) : base("PulseSensor", agent) { }
 
-        public string Activate()
+        public override string Activate()
         {
 
             count += 1;

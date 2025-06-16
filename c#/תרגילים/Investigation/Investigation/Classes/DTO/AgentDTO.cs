@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Investigation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,14 @@ namespace Investigation
         public int IdPlayer { get; set; }
         public int Rank { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
         public bool IsActive { get; set; }
+        public int PulseSensor {  get; set; }
+        public int AudioSensor {  get; set; }
+        public int LightSensor {  get; set; }
+        public int SignalSensor {  get; set; }
+        public int MagneticSensor {  get; set; }
+        public int ThermalSensor {  get; set; }
 
-        public int NeedSensor {  get; set; }
-        public int HaveSensor {  get; set; }
+
     }
 }
