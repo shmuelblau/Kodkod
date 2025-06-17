@@ -11,7 +11,7 @@ namespace Investigation
     {
         public int Id { get; set; }
         public int IdPlayer { get; set; }
-        public int Rank { get; set; }
+        public string Type { get; set; }
         public string Name { get; set; }
         public bool IsActive { get; set; }
         public int PulseSensor {  get; set; }

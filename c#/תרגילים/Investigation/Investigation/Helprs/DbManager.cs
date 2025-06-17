@@ -4,7 +4,8 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Data.Entity;
+
+
 
 
 
@@ -34,6 +35,7 @@ namespace Investigation
     public class InvestigationContext : DbContext
     {
         public DbSet<AgentDTO> agents {  get; set; }
+        public DbSet<PlayerDTO> Players {  get; set; }
         
 
 
