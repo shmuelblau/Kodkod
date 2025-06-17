@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8
+    container_name: Investigation-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: Investigation
+      MYSQL_USER: intel_user
+      MYSQL_PASSWORD: intelpass
+    ports:
+      - "3306:3306"
+    volumes:
+      - Investigation_data:/var/lib/mysql
+      - ./initdb:/docker-entrypoint-initdb.d
+
+  
+
+volumes:
+  Investigation_data:
